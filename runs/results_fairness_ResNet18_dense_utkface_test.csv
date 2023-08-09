@@ -1,0 +1,12 @@
+Date Finished,Base Config,Name,Batch Size,Learning Rate,LR Policy,Prune Rate,fair Regularization,lam fair,fair type,Test Val Top 1,Test Val Unfairness
+10-26-22_00:35:27, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_utkface, 128,0.01,ReduceLROnPlateau,1.0, logistic,0.0,eoo,0.79, -0.01
+10-26-22_00:36:59, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_utkface, 128,0.01,ReduceLROnPlateau,1.0, logistic,0.03,eoo,0.76, -0.10
+10-26-22_00:38:30, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_utkface, 128,0.01,ReduceLROnPlateau,1.0, logistic,0.06,eoo,0.70, -0.19
+10-26-22_00:40:02, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_utkface, 128,0.01,ReduceLROnPlateau,1.0, logistic,0.09,eoo,0.71, -0.28
+10-26-22_00:41:35, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_utkface, 128,0.01,ReduceLROnPlateau,1.0, logistic,0.12,eoo,0.63, -0.19
+10-26-22_00:43:06, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_utkface, 128,0.01,ReduceLROnPlateau,1.0, logistic,0.15,eoo,0.61, -0.13
+10-26-22_00:44:36, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_utkface, 128,0.01,ReduceLROnPlateau,1.0, logistic,0.18,eoo,0.61, -0.28
+10-26-22_00:46:06, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_utkface, 128,0.01,ReduceLROnPlateau,1.0, logistic,0.21,eoo,0.57, -0.09
+10-26-22_00:47:37, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_utkface, 128,0.01,ReduceLROnPlateau,1.0, logistic,0.24,eoo,0.53, -0.05
+10-26-22_00:49:07, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_utkface, 128,0.01,ReduceLROnPlateau,1.0, logistic,0.27,eoo,0.63, -0.33
+10-26-22_00:50:38, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_utkface, 128,0.01,ReduceLROnPlateau,1.0, logistic,0.3,eoo,0.60, -0.15

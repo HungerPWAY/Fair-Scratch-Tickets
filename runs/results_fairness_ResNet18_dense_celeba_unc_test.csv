@@ -1,0 +1,22 @@
+Date Finished,Base Config,Name,Batch Size,Learning Rate,LR Policy,Prune Rate,fair Regularization,lam fair,fair type,Test Val Top 1,Test Val Unfairness
+07-04-22_20:49:28, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.0,dp,0.78, 0.08
+07-04-22_20:52:34, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.06,dp,0.67, 0.05
+07-04-22_20:55:43, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.12,dp,0.53, -0.04
+07-04-22_20:58:51, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.18,dp,0.83, -0.03
+07-04-22_21:01:57, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.24,dp,0.84, -0.05
+07-04-22_21:05:09, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.3,dp,0.78, -0.17
+07-04-22_21:08:19, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.36,dp,0.52, -0.03
+07-05-22_02:06:29, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.0,dp,0.55, 0.04
+07-05-22_02:09:37, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.06,dp,0.71, 0.08
+07-05-22_02:12:46, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.12,dp,0.71, 0.05
+07-05-22_02:15:57, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.18,dp,0.75, -0.06
+07-05-22_02:19:09, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.24,dp,0.78, -0.15
+07-05-22_02:22:22, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.3,dp,0.74, -0.19
+07-05-22_02:25:31, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.36,dp,0.60, -0.03
+07-05-22_06:09:16, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.0,dp,0.83, 0.11
+07-05-22_06:12:25, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.06,dp,0.66, 0.03
+07-05-22_06:15:32, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.12,dp,0.71, 0.04
+07-05-22_06:18:36, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.18,dp,0.76, -0.01
+07-05-22_06:21:46, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.24,dp,0.56, -0.01
+07-05-22_06:24:52, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.3,dp,0.59, -0.05
+07-05-22_06:28:02, configs/celeba/ResNet18dense_celeba_unc.yml, ResNet18_dense_celeba_unc, 128,0.01,cosine_lr,1.0, logistic,0.36,dp,0.67, -0.19

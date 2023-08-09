@@ -1,0 +1,2 @@
+Date Finished,Base Config,Name,Batch Size,Learning Rate,LR Policy,Prune Rate,fair Regularization,lam fair,fair type,Test Val Top 1,Test Val Unfairness
+10-29-22_01:02:09, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_FTT, 128,0.01,cosine_lr,0.001, logistic,0.18,dp,0.77, -0.01

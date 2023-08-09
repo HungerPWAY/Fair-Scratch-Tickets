@@ -1,0 +1,16 @@
+Date Finished,Base Config,Name,Batch Size,Learning Rate,LR Policy,Prune Rate,fair Regularization,lam fair,fair type,Test Val Top 1,Test Val Unfairness
+07-05-22_20:18:54, configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.01,constant_lr,1, -1,0,None,0.67, 0.50
+07-05-22_20:37:29, configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.01,constant_lr,1, -1,0,None,0.79, 0.21
+07-05-22_20:42:33, configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.01,constant_lr,1, -1,0,None,0.78, 0.23
+07-05-22_20:47:25, configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.01,constant_lr,1, -1,0,None,0.73, 0.40
+07-05-22_20:59:47, configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.01,constant_lr,1, -1,0,None,0.78, 0.19
+07-05-22_20:59:49, configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.01,constant_lr,1, -1,0,None,0.78, 0.30
+07-05-22_21:12:26, configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.1,constant_lr,1, -1,0,None,0.75, 0.25
+07-05-22_21:35:04, configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.01,constant_lr,1, -1,0,None,0.78, 0.23
+07-05-22_22:04:20, configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.0001,constant_lr,1, -1,0,None,0.69, 0.21
+07-05-22_22:10:51, configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.01,constant_lr,1, -1,0,None,0.80, 0.25
+07-06-22_00:13:59, configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.01,constant_lr,1, -1,0,None,0.81, 0.21
+10-22-22_15:31:02, /home/tangpw/hidden-networks/configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.01,constant_lr,1, -1,0,None,0.83, 0.24
+10-22-22_15:48:52, /home/tangpw/hidden-networks/configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.01,constant_lr,1, -1,0,None,0.78, 0.30
+10-22-22_18:01:58, /home/tangpw/hidden-networks/configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.0001,constant_lr,1, -1,0,None,0.54, 0.46
+10-22-22_20:39:04, /home/tangpw/hidden-networks/configs/cifar10S/cifar10s_dense.yml, ResNet18_dense_cifar10s_adv, 128,0.01,constant_lr,1, -1,0,None,0.80, 0.21

@@ -1,0 +1,31 @@
+# Architecture
+arch: ResNet50
+task: dense
+
+# ===== Dataset ===== #
+data: /home/tangpw/FairSurrogates/
+set: CelebA
+name: ResNet50_dense_celeba
+
+# ===== Learning Rate Policy ======== #
+optimizer: adam
+lr: 0.01
+lr_policy: cosine_lr
+loss: BCEWithLogitsLoss
+
+# ===== Network training config ===== #
+epochs: 3
+weight_decay: 0.0001
+momentum: 0.9
+batch_size: 128
+
+# ===== Sparsity =========== #
+conv_type: DenseConv
+bn_type: LearnedBatchNorm
+init: kaiming_normal
+mode: fan_in
+nonlinearity: relu
+prune_rate: 0.0
+
+# ===== Hardware setup ===== #
+workers: 4

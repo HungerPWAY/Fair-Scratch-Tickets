@@ -1,0 +1,4 @@
+Date Finished,Base Config,Name,Batch Size,Learning Rate,LR Policy,Prune Rate,fair Regularization,lam fair,fair type,Test Val Top 1,Test Val Unfairness
+07-05-22_23:59:25, configs/cifar10S/cifar10s_original.yml, ResNet18_dense_cifar10s_original, 128,0.01,constant_lr,1, -1,0,None,0.82, 0.22
+07-06-22_01:02:17, configs/cifar10S/cifar10s_original.yml, ResNet18_dense_cifar10s_original, 128,0.01,constant_lr,1, -1,0,None,0.81, 0.25
+07-06-22_01:29:18, configs/cifar10S/cifar10s_original.yml, ResNet18_dense_cifar10s_original, 128,0.01,constant_lr,1, -1,0,None,0.83, 0.20

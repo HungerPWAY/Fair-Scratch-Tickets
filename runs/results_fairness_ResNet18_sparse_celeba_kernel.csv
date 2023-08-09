@@ -1,0 +1,20 @@
+Date Finished, Base Config, Name, Batch Size,Learning Rate,LR Policy,Prune Rate, fair Regularization,lam fair,fair type,Current Val Top 1, Current Val Unfairness, Best Val Top 1, Best Val Unfairness, Best Train Top 1, Best Train Unfairness
+06-23-22_00:56:52, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.0,dp,0.88, 0.16, 0.88, 0.16, 0.89, 0.14
+06-23-22_01:22:04, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.03,dp,0.89, 0.10, 0.89, 0.10, 0.88, 0.11
+06-23-22_01:47:27, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.06,dp,0.78, 0.08, 0.83, 0.03, 0.88, 0.08
+06-23-22_02:12:38, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.09,dp,0.86, 0.02, 0.86, 0.05, 0.88, 0.05
+06-23-22_02:38:33, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.12,dp,0.83, 0.04, 0.84, 0.02, 0.87, 0.02
+06-23-22_03:04:07, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.15,dp,0.86, -0.02, 0.86, -0.02, 0.87, -0.00
+06-23-22_03:29:31, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.18,dp,0.85, -0.06, 0.85, -0.06, 0.86, -0.03
+06-23-22_03:54:47, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.21,dp,0.83, -0.11, 0.83, -0.11, 0.84, -0.08
+06-23-22_04:20:08, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.24,dp,0.82, -0.15, 0.82, -0.15, 0.83, -0.11
+06-23-22_04:45:21, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.27,dp,0.82, -0.13, 0.82, -0.13, 0.82, -0.14
+06-23-22_05:10:50, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.3,dp,0.77, -0.13, 0.82, -0.14, 0.81, -0.17
+06-23-22_05:36:25, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.33,dp,0.73, -0.32, 0.79, -0.21, 0.79, -0.21
+06-23-22_06:02:20, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.36,dp,0.76, -0.23, 0.76, -0.26, 0.78, -0.24
+06-23-22_06:27:45, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.39,dp,0.73, -0.28, 0.73, -0.28, 0.75, -0.29
+06-23-22_06:52:41, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.42,dp,0.68, -0.35, 0.72, -0.35, 0.73, -0.33
+
+06-24-22_13:00:17, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.06,dp,0.87, 0.11, 0.87, 0.11, 0.87, 0.08
+06-24-22_13:20:06, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.09,dp,0.87, 0.05, 0.87, 0.05, 0.87, 0.05
+06-24-22_13:40:29, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_kernel, 128,0.01,cosine_lr,0.05, logistic,0.12,dp,0.86, -0.02, 0.87, 0.03, 0.87, 0.02

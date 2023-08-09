@@ -1,0 +1,34 @@
+# Architecture
+arch: ResNet18
+task: ft_reinit
+pretrained: None #runs/ResNet18sparse_celeba/ResNet18_sparse_celba/prune_rate=0.05_fair_type=logistic_lam_fair=0.18/checkpoints/model_best.pth
+
+# ===== Dataset ===== #
+data: /home/tangpw/FairSurrogates/
+set: CelebA
+name: ResNet18_pretrained_celeba_ft_reinit
+
+# ===== Learning Rate Policy ======== #
+optimizer: sgd
+lr: 0.01
+lr_policy: cosine_lr
+loss: BCEWithLogitsLoss
+
+# ===== Network training config ===== #
+epochs: 3
+weight_decay: 0.0001
+momentum: 0.9
+batch_size: 128
+
+# ===== Sparsity =========== #
+conv_type: SubnetConv
+bn_type: NonAffineBatchNorm
+init: kaiming_normal
+freeze_weights: True
+mode: fan_in
+nonlinearity: relu
+prune_rate: -1
+scale_fn: True
+
+# ===== Hardware setup ===== #
+workers: 4

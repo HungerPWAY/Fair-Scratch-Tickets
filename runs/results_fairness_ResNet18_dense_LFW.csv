@@ -1,0 +1,14 @@
+Date Finished, Base Config, Name, Batch Size,Learning Rate,LR Policy,Prune Rate, fair Regularization,lam fair,fair type,Current Val Top 1, Current Val Unfairness, Best Val Top 1, Best Val Unfairness, Best Train Top 1, Best Train Unfairness
+10-26-22_17:29:09, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.0,eoo,0.78, -0.00, 0.82, 0.01, 0.82, 0.01
+10-26-22_17:31:03, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.0,eoo,0.82, 0.02, 0.82, 0.02, 0.81, 0.02
+10-26-22_17:39:27, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.0,eoo,0.91, 0.02, 0.91, 0.01, 1.00, 0.00
+10-26-22_19:26:41, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.0,dp,0.84, 0.16, 0.84, 0.16, 0.87, 0.16
+10-26-22_19:43:32, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.0,dp,0.85, 0.15, 0.86, 0.16, 0.89, 0.16
+10-26-22_19:46:05, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.0,dp,0.87, 0.18, 0.87, 0.18, 0.90, 0.20
+10-26-22_19:51:01, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.0,dp,0.89, 0.05, 0.89, 0.05, 0.89, 0.20
+10-26-22_21:04:54, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.0,eoo,0.87, 0.04, 0.88, 0.07, 1.00, 0.00
+10-26-22_21:12:58, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.0,eoo,0.89, 0.08, 0.89, 0.08, 1.00, 0.00
+10-26-22_21:23:06, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.02,eoo,0.89, 0.06, 0.89, 0.07, 1.00, -0.01
+10-26-22_21:32:51, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.1,eoo,0.80, -0.44, 0.81, -0.29, 0.85, -0.54
+10-26-22_21:41:22, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.05,eoo,0.87, -0.06, 0.88, -0.00, 0.97, -0.15
+10-26-22_21:52:00, configs/utkface2/ResNet18dense_utkface2.yml, ResNet18_dense_LFW, 128,0.01,cosine_lr,1.0, logistic,0.03,eoo,0.89, 0.04, 0.89, 0.04, 1.00, -0.01

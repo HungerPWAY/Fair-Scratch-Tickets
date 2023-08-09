@@ -1,0 +1,5 @@
+Date Finished,Base Config,Name,Batch Size,Learning Rate,LR Policy,Prune Rate,fair Regularization,lam fair,fair type,Test Val Top 1,Test Val Unfairness
+10-22-22_02:38:34, /home/tangpw/hidden-networks/configs/celeba/x.yml, x, 128,0.01,constant_lr,0.1, -1,0,None,0.91, 0.15
+10-22-22_17:20:40, /home/tangpw/hidden-networks/configs/celeba/x.yml, x, 128,0.01,constant_lr,0.1, -1,0,None,0.90, 0.13
+10-22-22_17:57:48, /home/tangpw/hidden-networks/configs/celeba/x.yml, x, 128,0.01,constant_lr,0.1, -1,0,None,0.92, 0.17
+10-22-22_19:42:22, /home/tangpw/hidden-networks/configs/celeba/x.yml, x, 128,0.01,constant_lr,0.1, -1,0,None,0.92, 0.17

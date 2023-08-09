@@ -1,0 +1,6 @@
+Date Finished,Base Config,Name,Batch Size,Learning Rate,LR Policy,Prune Rate,fair Regularization,lam fair,fair type,Test Val Top 1,Test Val Unfairness
+10-13-22_16:03:35, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_trained, 128,0.01,cosine_lr,0.05, logistic,0.18,dp,0.91, 0.08
+10-13-22_16:26:50, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_trained, 128,0.01,cosine_lr,0.001, logistic,0.3,dp,0.65, -0.04
+10-13-22_16:53:49, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_trained, 128,0.01,cosine_lr,0.002, logistic,0.3,dp,0.79, -0.13
+10-13-22_17:20:51, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_trained, 128,0.01,cosine_lr,0.001, logistic,0.3,dp,0.66, -0.08
+10-13-22_17:37:40, configs/celeba/ResNet18sparse_celeba.yml, ResNet18_sparse_celeba_trained, 128,0.01,cosine_lr,0.001, logistic,0.3,dp,0.65, -0.06

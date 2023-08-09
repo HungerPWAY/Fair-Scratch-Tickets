@@ -1,0 +1,3 @@
+Date Finished,Base Config,Name,Batch Size,Learning Rate,LR Policy,Prune Rate,fair Regularization,lam fair,fair type,Test Val Top 1,Test Val Unfairness
+07-05-22_21:03:47, configs/cifar10S/cifar10s_sparse.yml, cResNet18_adv, 128,0.01,constant_lr,0.05, -1,0,None,0.59, 0.58
+07-05-22_22:24:52, configs/cifar10S/cifar10s_sparse.yml, cResNet18_adv, 128,0.01,constant_lr,0.05, -1,0,None,0.80, 0.25

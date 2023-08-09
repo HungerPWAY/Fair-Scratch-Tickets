@@ -1,0 +1,16 @@
+Date Finished, Base Config, Name, Batch Size,Learning Rate,LR Policy,Prune Rate, fair Regularization,lam fair,fair type,Current Val Top 1, Current Val Unfairness, Best Val Top 1, Best Val Unfairness, Best Train Top 1, Best Train Unfairness
+11-02-22_21:03:32, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.001, logistic,0.0,dp,0.78, 0.24, 0.78, 0.24, 0.78, 0.25
+11-02-22_21:09:57, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.001, logistic,0.25,dp,0.75, 0.34, 0.75, 0.34, 0.76, 0.37
+11-02-22_21:56:49, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.001, logistic,0.25,dp,0.79, 0.31, 0.79, 0.31, 0.79, 0.37
+11-03-22_12:13:06, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.001, logistic,0.25,dp,0.65, 0.17, 0.70, 0.38, 0.73, 0.36
+11-03-22_12:22:12, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.001, logistic,0.25,dp,0.78, 0.38, 0.78, 0.38, 0.77, 0.37
+11-03-22_13:37:06, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.005, logistic,0.25,dp,0.81, 0.41, 0.82, 0.43, 0.82, 0.40
+11-03-22_15:27:01, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.01, logistic,0.25,dp,0.85, 0.46, 0.85, 0.46, 0.88, 0.50
+11-03-22_17:16:27, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.05, logistic,0.25,dp,0.87, 0.50, 0.87, 0.48, 0.93, 0.51
+11-03-22_19:05:39, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.1, logistic,0.25,dp,0.87, 0.48, 0.87, 0.48, 0.92, 0.52
+11-03-22_20:55:20, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.4, logistic,0.25,dp,0.86, 0.49, 0.87, 0.43, 0.95, 0.54
+11-04-22_11:33:14, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.005, logistic,0.25,dp,0.83, 0.41, 0.83, 0.40, 0.82, 0.41
+11-04-22_12:42:09, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.01, logistic,0.25,dp,0.85, 0.49, 0.85, 0.49, 0.88, 0.50
+11-04-22_13:51:13, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.05, logistic,0.25,dp,0.88, 0.49, 0.88, 0.45, 0.94, 0.53
+11-04-22_15:02:21, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.1, logistic,0.25,dp,0.87, 0.50, 0.87, 0.50, 0.92, 0.51
+11-04-22_16:26:01, configs/LFW/ResNet18_sparse_lfw_sc.yml, ResNet18_sparse_LFW_sc, 128,0.0005,cosine_lr,0.4, logistic,0.25,dp,0.87, 0.48, 0.88, 0.47, 0.95, 0.53
