@@ -29,12 +29,13 @@ Common example ```override-args``` include ```--multigpu=<gpu-ids seperated by c
 ```
 
 ### Example Run
-
 ```bash
-python main.py --config configs/smallscale/conv4/conv4_usc_unsigned.yml \
-               --multigpu 0 \
-               --name example \
-               --data <path/to/data-dir> \
-               --prune-rate 0.5
+python main.py --config configs/celeba/ResNet18sparse_celeba_sc.yml \
+                --multigpu 0 \
+                --prune-rate 0.05 \
+                --fair-type dp \
+                --lam-fair 0.0 \
+                --fair-regularization logistic \
+                --print-val-freq 10 \
+                --print-freq 100
 ```
-
