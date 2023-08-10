@@ -19,14 +19,8 @@ python main.py --config <path/to/config> <override-args>
 
 Common example ```override-args``` include ```--multigpu=<gpu-ids seperated by commas, no spaces>``` to run on GPUs, and ```--prune-rate``` to set the prune rate, ```weights_remaining``` in our paper, for an experiment. Run ```python main --help``` for more details.
 
-### YAML Name Key
 
-```
-(u)uc -> (unscaled) unsigned constant
-(u)sc -> (unscaled) signed constant
-(u)pt -> (unscaled) pretrained init
-(u)kn -> (unscaled) kaiming normal
-```
+
 
 ### Example Run
 ```bash
