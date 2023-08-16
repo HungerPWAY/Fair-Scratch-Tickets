@@ -28,17 +28,7 @@ python main.py --config configs/celeba/ResNet18sparse_celeba_sc.yml \
                 --print-val-freq 10 \
                 --print-freq 100
 ```
-### Example Run
-```bash
-python main.py --config configs/celeba/ResNet18sparse_celeba_sc.yml \
-                --multigpu 0 \
-                --prune-rate 0.05 \
-                --fair-type dp \
-                --lam-fair 0.0 \
-                --fair-regularization logistic \
-                --print-val-freq 10 \
-                --print-freq 100
-```
+
 ```
 python main_adv.py --config configs/celeba/z_sparse.yml \
       --multigpu 0 \
