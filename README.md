@@ -33,3 +33,20 @@ python main.py --config configs/celeba/ResNet18sparse_celeba_sc.yml \
                 --print-val-freq 10 \
                 --print-freq 100
 ```
+
+
+## Citation
+```
+@InProceedings{Tang_2023_CVPR,
+    author    = {Tang, Pengwei and Yao, Wei and Li, Zhicong and Liu, Yong},
+    title     = {Fair Scratch Tickets: Finding Fair Sparse Networks Without Weight Training},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {24406-24416}
+}
+```
+
+## Acknowledgement
+
+Our codes are modified from [[What’s Hidden in a Randomly Weighted Neural Network]](https://github.com/allenai/hidden-networks).
