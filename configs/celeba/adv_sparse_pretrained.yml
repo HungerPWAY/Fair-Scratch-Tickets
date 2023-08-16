@@ -1,0 +1,41 @@
+# Architecture
+arch: Adv_Model
+task: ft_subnet_inherit
+trainer: train_adv_celeba
+
+# ===== Dataset ===== #
+data: /home/tangpw/data/
+set: CelebA_Adv
+name: CelebA_Adv_ResNet18_sparse_pretrained
+
+# ===== Learning Rate Policy ======== #
+
+optimizer: adam
+lr: 0.01
+lr_policy_targets: cosine_lr
+loss: BCEWithLogitsLoss
+
+adv_optimizer: adam
+adv_lr: 0.01
+lr_policy_groups: cosine_lr
+
+
+
+
+# ===== Network training config ===== #
+epochs: 10
+#weight_decay: 0.0001
+#momentum: 0.9
+batch_size: 128
+
+# ===== Sparsity =========== #
+conv_type: SubnetConv
+bn_type: NonAffineBatchNorm
+freeze_weights: True
+init: signed_constant
+mode: fan_in
+nonlinearity: relu
+prune_rate: -1
+
+# ===== Hardware setup ===== #
+workers: 4
