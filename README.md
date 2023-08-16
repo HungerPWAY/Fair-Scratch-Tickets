@@ -3,11 +3,6 @@
 by Pengwei Tang, Wei Yao, Zhicong Li, Yong Liu
 
 URL: https://openaccess.thecvf.com/content/CVPR2023/papers/Tang_Fair_Scratch_Tickets_Finding_Fair_Sparse_Networks_Without_Weight_Training_CVPR_2023_paper.pdf
-<!-- ![alt text](images/teaser.png) -->
-
-
-
-
 
 ## Starting an Experiment 
 
@@ -33,7 +28,29 @@ python main.py --config configs/celeba/ResNet18sparse_celeba_sc.yml \
                 --print-val-freq 10 \
                 --print-freq 100
 ```
-
+### Example Run
+```bash
+python main.py --config configs/celeba/ResNet18sparse_celeba_sc.yml \
+                --multigpu 0 \
+                --prune-rate 0.05 \
+                --fair-type dp \
+                --lam-fair 0.0 \
+                --fair-regularization logistic \
+                --print-val-freq 10 \
+                --print-freq 100
+```
+```
+python main_adv.py --config configs/celeba/z_sparse.yml \
+      --multigpu 0 \
+      --print-val-freq 20 \
+      --print-freq 100 --adv \
+      --init signed_constant \
+      --name CelebA_Adv_ResNet18_sparse_sc_filter \
+      --trainer train_new_adv \
+      --lambd 0 \
+      --prune-rate 0.001 \
+      --conv-type SubnetConv_filter
+```
 
 ## Citation
 ```
