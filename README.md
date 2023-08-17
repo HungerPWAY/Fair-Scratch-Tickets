@@ -33,7 +33,8 @@ python main.py --config configs/celeba/ResNet18sparse_celeba_sc.yml \
 python main_adv.py --config configs/celeba/adv_sparse.yml \
       --multigpu 0 \
       --print-val-freq 20 \
-      --print-freq 100 --adv \
+      --print-freq 100
+      --adv \
       --init signed_constant \
       --name CelebA_Adv_ResNet18_sparse_sc_filter \
       --trainer train_adv \
